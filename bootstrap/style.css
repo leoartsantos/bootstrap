@@ -1,0 +1,355 @@
+
+/* 
+   CONFIGURAÇÕES GERAIS
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/*
+   NAVBAR
+*/
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 22px;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+
+/* 
+   BANNER PRINCIPAL
+ */
+
+.banner {
+    min-height: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        #ff6b6b,
+        #f06595,
+        #845ef7
+        
+    );
+
+    color: white;
+}
+
+.banner h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+
+.banner .btn {
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+
+/* 
+   TÍTULOS
+   
+*/
+
+h2 {
+    font-weight: bold;
+}
+
+
+
+/*
+   card foto
+*/
+
+#foto p{
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.clearfix p{
+    
+}
+
+p{
+    font-size: 50px;
+}
+
+/* 
+   CATEGORIAS
+ */
+
+.categoria {
+    border: none;
+    border-radius: 15px;
+
+    background-color: white;
+
+    padding: 25px !important;
+
+    transition: 0.3s;
+
+    height: 100%;
+}
+
+.categoria:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.categoria div {
+    margin-bottom: 15px;
+}
+
+
+/* 
+   CARDS DOS PRODUTOS
+ */
+
+.card {
+    border: none;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+
+/* 
+   IMAGEM DO PRODUTO
+ */
+
+.produto-imagem {
+    height: 220px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 90px;
+
+    background: linear-gradient(
+        135deg,
+        #fff3bf,
+        #ffe8cc
+    );
+}
+
+
+/* 
+   PREÇO
+ */
+
+.card h4 {
+    color: #e03131;
+
+    font-weight: bold;
+
+    margin: 15px 0;
+}
+
+
+/* 
+   BOTÕES
+*/
+
+.btn-primary {
+    border: none;
+
+    border-radius: 8px;
+
+    padding: 10px 15px;
+
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.03);
+}
+
+
+/* 
+   BOTÃO DO CARRINHO
+ */
+
+.btn-warning {
+    border-radius: 20px;
+
+    font-weight: bold;
+}
+
+#quantidadeCarrinho {
+    margin-left: 5px;
+}
+
+
+/* 
+   MODAL DO CARRINHO
+ */
+
+.modal-content {
+    border: none;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+}
+
+.modal-header {
+    background: #845ef7;
+
+    color: white;
+}
+
+.modal-header .btn-close {
+    filter: brightness(0) invert(1);
+}
+
+
+/* 
+   LISTA DO CARRINHO
+ */
+
+#listaCarrinho {
+    margin-bottom: 20px;
+}
+
+#listaCarrinho .list-group-item {
+    padding: 15px;
+}
+
+
+/*
+   TOTAL
+ */
+
+#valorTotal {
+    color: #198754;
+
+    font-weight: bold;
+}
+
+
+/* 
+   CARRINHO VAZIO
+ */
+
+#carrinhoVazio {
+    padding: 30px;
+    color: #6c757d;
+}
+
+
+/* 
+   RODAPÉ
+ */
+
+footer {
+    margin-top: 60px;
+
+    padding: 30px 15px !important;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+
+/*
+   RESPONSIVIDADE
+ */
+
+@media (max-width: 768px) {
+
+    .banner {
+        min-height: 380px;
+
+        padding: 50px 20px;
+    }
+
+    .banner h1 {
+        font-size: 36px;
+    }
+
+    .banner p {
+        font-size: 18px;
+    }
+
+    .produto-imagem {
+        height: 180px;
+    }
+
+    .navbar .btn-warning {
+        margin-top: 10px;
+    }
+}
+
+/*
+   CELULAR PEQUENO
+*/
+
+@media (max-width: 576px) {
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .banner p {
+        font-size: 16px;
+    }
+
+    .produto-imagem {
+        height: 160px;
+
+        font-size: 70px;
+    }
+}
+

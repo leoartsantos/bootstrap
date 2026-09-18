@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Contato - Festa & Alegria</title>
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold"
+                href="bloco.html">
+
+                🎉 Festa & Alegria
+
+            </a>
+
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <div
+                class="collapse navbar-collapse "
+                id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                            href="bloco.html">
+
+                            Início
+
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                            href="bloco.html#produtos">
+
+                            Produtos
+
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a class="nav-link active"
+                            href="contato.html">
+
+                            Contato
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- CONTATO -->
+
+    <main class="container my-5">
+
+        <div class="text-center mb-5">
+
+            <h1 class="fw-bold">
+                📞 Entre em contato
+            </h1>
+
+            <p class="text-muted">
+                Ficou com alguma dúvida? Fale conosco!
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <!-- INFORMAÇÕES -->
+
+            <div class="col-md-5">
+
+                <div class="card shadow-sm h-100">
+
+                    <div class="card-body p-4">
+
+                        <h3 class="mb-4">
+                            📍 Nossos contatos
+                        </h3>
+
+
+                        <div class="mb-4">
+
+                            <h5>📱 WhatsApp</h5>
+
+                            <p>
+                                (31) 99999-9999
+                            </p>
+
+                        </div>
+
+
+                        <div class="mb-4">
+
+                            <h5>📧 E-mail</h5>
+
+                            <p>
+                                contato@festaealegria.com
+                            </p>
+
+                        </div>
+
+
+                        <div class="mb-4">
+
+                            <h5>📍 Endereço</h5>
+
+                            <p>
+                                Rua das Flores, 100<br>
+                                Belo Horizonte - MG
+                            </p>
+
+                        </div>
+
+
+                        <div>
+
+                            <h5>🕐 Horário</h5>
+
+                            <p>
+                                Segunda a sábado<br>
+                                08:00 às 18:00
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- FORMULÁRIO -->
+
+            <div class="col-md-7">
+
+                <div class="card shadow-sm">
+
+                    <div class="card-body p-4">
+
+                        <h3 class="mb-4">
+                            ✉️ Envie uma mensagem
+                        </h3>
+
+
+                        <form>
+
+
+                            <!-- NOME -->
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="nome"
+                                    class="form-label">
+
+                                    Nome
+
+                                </label>
+
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="nome"
+                                    placeholder="Digite seu nome"
+                                    required>
+
+                            </div>
+
+
+                            <!-- EMAIL -->
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="email"
+                                    class="form-label">
+
+                                    E-mail
+
+                                </label>
+
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    placeholder="Digite seu e-mail"
+                                    required>
+
+                            </div>
+
+
+                            <!-- TELEFONE -->
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="telefone"
+                                    class="form-label">
+
+                                    Telefone
+
+                                </label>
+
+                                <input
+                                    type="tel"
+                                    class="form-control"
+                                    id="telefone"
+                                    placeholder="(00) 00000-0000">
+
+                            </div>
+
+
+                            <!-- ASSUNTO -->
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="assunto"
+                                    class="form-label">
+
+                                    Assunto
+
+                                </label>
+
+                                <select
+                                    class="form-select"
+                                    id="assunto">
+
+                                    <option selected>
+                                        Selecione
+                                    </option>
+
+                                    <option>
+                                        Dúvida sobre produto
+                                    </option>
+
+                                    <option>
+                                        Pedido
+                                    </option>
+
+                                    <option>
+                                        Orçamento
+                                    </option>
+
+                                    <option>
+                                        Outro
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <!-- MENSAGEM -->
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="mensagem"
+                                    class="form-label">
+
+                                    Mensagem
+
+                                </label>
+
+                                <textarea
+                                    class="form-control"
+                                    id="mensagem"
+                                    rows="5"
+                                    placeholder="Digite sua mensagem">
+                                </textarea>
+
+                            </div>
+
+
+                            <!-- BOTÃO -->
+
+                            <button
+                                type="submit"
+                                class="btn btn-primary w-100">
+
+                                📩 Enviar mensagem
+
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+
+    <footer class="bg-dark text-white text-center p-4">
+
+        <p class="mb-0">
+            © 2026 Festa & Alegria
+        </p>
+
+        <small>
+            Tudo para deixar sua festa especial 🎉
+        </small>
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>
