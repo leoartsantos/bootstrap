@@ -10,6 +10,7 @@
 }
 
 body {
+  
     background-color: #f8f9fa;
     font-family: Arial, sans-serif;
 }
@@ -31,7 +32,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #ffc107 !important;
+    color: #ffc107 ;
 }
 
 
@@ -48,15 +49,27 @@ body {
 
     text-align: center;
 
-    background: linear-gradient(
-        135deg,
-        #ff6b6b,
-        #f06595,
-        #845ef7
+   
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.1)
         
-    );
+    ),
+    url("images\ \(6\).jpg");
 
-    color: white;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+
+    color: rgb(253, 251, 251);
 }
 
 .banner h1 {
@@ -90,31 +103,41 @@ h2 {
    card foto
 */
 
-#foto p{
+
+
+.foto,
+.foto2 {
+    padding: 50px 0;
+}
+
+.foto img,
+.foto2 img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.texto-foto,
+.texto-foto2 {
     font-size: 20px;
-    margin-top: 50px;
-    padding: 50px;
+    line-height: 1.6;
+    padding: 20px;
 }
 
-.clearfix p{
-    
-}
 
-p{
-    font-size: 50px;
-}
+
 
 /* 
    CATEGORIAS
  */
 
 .categoria {
-    border: none;
+  
     border-radius: 15px;
 
-    background-color: white;
+    background-color: rgb(238, 67, 67);
 
-    padding: 25px !important;
+    padding: 25px ;
 
     transition: 0.3s;
 
@@ -130,6 +153,9 @@ p{
 
 .categoria div {
     margin-bottom: 15px;
+}
+hr{
+    color: #f8f9fa;
 }
 
 
@@ -151,7 +177,7 @@ p{
     transform: translateY(-7px);
 
     box-shadow:
-        0 10px 25px rgba(0, 0, 0, 0.15) !important;
+        0 10px 25px rgba(0, 0, 0, 0.15) ;
 }
 
 .card-body {
@@ -178,8 +204,8 @@ p{
 
     background: linear-gradient(
         135deg,
-        #fff3bf,
-        #ffe8cc
+        #8d7610,
+        #070502
     );
 }
 
