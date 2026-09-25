@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Festa & Alegria</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- CSS próprio -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="bloco.html">
+            🎉 Festa & Alegria
+        </a>
+
+        <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="bloco.html">
+                        Início
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="bloco.html#produtos">
+
+                        Produtos
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">
+                        Contato
+                    </a>
+                </li>
+
+                <!-- CARRINHO -->
+                <li class="nav-item ms-lg-3">
+
+                    <button
+                        class="btn btn-warning"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalCarrinho">
+
+                        🛒 Carrinho
+                        <span
+                            id="quantidadeCarrinho"
+                            class="badge bg-danger">
+                            0
+                        </span>
+
+                    </button>
+
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+    <!-- BANNER -->
+    <section class="banner">
+
+        <div class="container text-center">
+
+          
+
+            <h1 class="display-4 fw-bold">
+                🎈 Tudo para sua festa!
+            </h1>
+
+            <p class="lead">
+                Decoração, balões, lembrancinhas e muito mais.
+            </p>
+
+            <a href="bloco.html#produtos" class="btn btn-primary btn-lg">
+                Ver produtos
+            </a>
+
+        </div>
+    
+   
+    </section>
+
+    <!-- CARD FOTO -->
+            
+        <section class="foto">
+            <div class="container">
+                <div class="row align-items-center">
+
+                
+                    <div class="col-md-6">
+                        <p class="texto-foto">
+                        " Decorações em geral. Apresentações diversas e personalizadas
+                            de forma que sua festa fique do seu estilo
+                            "Vem para Festa & Alegria"!!!"
+                        </p>
+                    </div>
+
+                
+                    <div class="col-md-6">
+                        <img src="images (2).jpg"
+                            class="img-fluid rounded"
+                            alt="Decorações">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SEGUNDA FOTO -->
+        <section class="foto2">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-md-6">
+                        <img src="images (4).jpg"
+                            class="img-fluid rounded"
+                            alt="Decorações">
+                    </div>
+
+                    
+                    <div class="col-md-6">
+                        <p class="texto-foto2">
+                            "De festas infantis a outros temas, 15 anos, casamentos,
+                            bodas e muito mais. A Festa & Alegria está aqui para
+                            te ajudar!!"
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+
+
+   
+</section>
+
+
+
+    <!-- CATEGORIAS -->
+    <section class="container my-5" id="temas">
+
+        <h2 class="text-center mb-4">
+            Encontre tudo para sua festa
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <div class="card categoria text-center p-4">
+                    <div class="fs-1">🎈</div>
+                    <h5>Balões</h5>
+                    <p>Balões de vários modelos e cores.</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card categoria text-center p-4">
+                    <div class="fs-1">🎂</div>
+                    <h5>Bolos</h5>
+                    <p>Itens para deixar sua mesa incrível.</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card categoria text-center p-4">
+                    <div class="fs-1">🎁</div>
+                    <h5>Lembrancinhas</h5>
+                    <p>Opções para presentear seus convidados.</p>
+                    <hr>
+                </div>
+              
+            </div>
+
+            <div class="col-md-3">
+                <div class="card categoria text-center p-4">
+                    <div class="fs-1">✨</div>
+                    <h5>Decoração</h5>
+                    <p>Produtos para transformar sua festa.</p>
+                    <hr>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUTOS EM DESTAQUE -->
+    <section class="container my-5" id="produtos">
+
+        <h2 class="text-center mb-4">
+            ⭐ Produtos em destaque
+        </h2>
+
+        <div class="row g-4">
+
+            <!-- PRODUTO 1 -->
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="produto-imagem">
+                        🎈
+                    </div>
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Kit de Balões
+                        </h5>
+
+                        <p class="card-text">
+                            Kit de arcos de  balões coloridos.
+                        </p>
+
+                        <h4>
+                            R$ 200,00
+                        </h4>
+                        <hr>
+
+                        <button
+                       class="btn btn-primary w-100"
+                       onclick="adicionarCarrinho('Kit de Balões', 200.00)">
+                        🛒 Adicionar ao carrinho
+                       </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUTO 2 -->
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="produto-imagem">
+                        🎂
+                    </div>
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Kit Festa Infantil
+                        </h5>
+
+                        <p class="card-text">
+                            Kit completo para decoração.
+                        </p>
+                    
+
+                        <h4>
+                            R$ 600,00
+                        </h4>
+                        <hr>
+
+                         <button
+    class="btn btn-primary w-100"
+    onclick="adicionarCarrinho('Kit Festa Infantil', 600.00)">
+    🛒 Adicionar ao carrinho
+</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUTO 3 -->
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="produto-imagem">
+                        🎁
+                    </div>
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Lembrancinhas
+                        </h5>
+
+                        <p class="card-text">
+                            Kit com 10 lembrancinhas.
+                        </p>
+
+                        <h4>
+                            R$ 39,90
+                        </h4>
+                        <hr>
+
+                        <button
+    class="btn btn-primary w-100"
+    onclick="adicionarCarrinho('Lembrancinhas', 39.90)">
+    🛒 Adicionar ao carrinho
+</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+   
+<!-- MODAL DO CARRINHO -->
+
+
+<div class="modal fade" id="modalCarrinho" tabindex="-1">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <!-- CABEÇALHO -->
+            <div class="modal-header">
+
+                <h5 class="modal-title">
+                    🛒 Meu Carrinho
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+
+            <!-- CORPO -->
+            <div class="modal-body">
+
+                <ul
+                    id="listaCarrinho"
+                    class="list-group mb-3">
+                </ul>
+
+
+                <!-- CARRINHO VAZIO -->
+
+                <div
+                    id="carrinhoVazio"
+                    class="text-center p-4">
+
+                    <h5>
+                        🛒 Seu carrinho está vazio
+                    </h5>
+
+                    <p>
+                        Adicione produtos para continuar.
+                    </p>
+
+                </div>
+
+
+                <!-- TOTAL -->
+
+                <div class="text-end">
+
+                    <h4>
+                        Total:
+                        <span id="valorTotal">
+                            R$ 0,00
+                        </span>
+                    </h4>
+
+                </div>
+
+            </div>
+
+
+            <!-- RODAPÉ -->
+
+            <div class="modal-footer">
+
+                <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+
+                    Continuar comprando
+
+                </button>
+
+
+                <button
+                    type="button"
+                    class="btn btn-danger"
+                    onclick="limparCarrinho()">
+
+                    🗑️ Limpar carrinho
+
+                </button>
+
+
+                <button
+                    id="finalizarCompra"
+                    class="btn btn-success"
+                    onclick="finalizarCompra()">
+
+                    ✅ Finalizar compra
+
+                </button>
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+    <!-- RODAPÉ -->
+    <footer class="bg-dark text-white text-center p-4 mt-5">
+
+        <p class="mb-0">
+            © 2026 Festa & Alegria
+        </p>
+
+        <small>
+            Tudo para deixar sua festa especial 🎉
+        </small>
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/canvas-confetti.browser.min.js">
+
+    </script>
+
+    <!-- JavaScript próprio -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
